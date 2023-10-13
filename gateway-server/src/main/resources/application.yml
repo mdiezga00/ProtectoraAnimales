@@ -1,0 +1,24 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: gateway-server
+  cloud:
+    gateway:
+      routes:
+        - id: micro-voluntarios
+          uri: lb://voluntarios
+          predicates:
+            - Path=/api/voluntarios/**
+        - id: micro-adoptantes
+          uri: lb://adoptantes
+          predicates:
+            - Path=/api/adoptantes/**
+        - id: micro-animales
+          uri: lb://animales
+          predicates:
+            - Path=/api/animales/**
+        - id: micro-adopciones
+          uri: lb://adopciones
+          predicates:
+            - Path=/api/adopciones/**
