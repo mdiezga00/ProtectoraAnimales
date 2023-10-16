@@ -12,7 +12,7 @@ public class ApiExceptionHandler {
     public ResponseEntity<Object> handleApiRequestException(SolicitudNotFoundException e){
         HttpStatus httpStatus = HttpStatus.NOT_FOUND;
         ApiException apiException = new ApiException(
-                "El usuario con Id " + e.getId() + " no existe",
+                "La soilicitud con Id " + e.getId() + " no existe",
                 httpStatus
         );
 
@@ -46,6 +46,17 @@ public class ApiExceptionHandler {
         HttpStatus httpStatus = HttpStatus.NOT_FOUND;
         ApiException apiException = new ApiException(
                 "El adoptante con Id " + e.getId() + " no existe",
+                httpStatus
+        );
+
+        return new ResponseEntity<>(apiException, httpStatus);
+    }
+
+    @ExceptionHandler(value = {SolicitudYaGestionadaException.class})
+    public ResponseEntity<Object> handleApiRequestException(SolicitudYaGestionadaException e){
+        HttpStatus httpStatus = HttpStatus.CONFLICT;
+        ApiException apiException = new ApiException(
+                "La solicitud con Id " + e.getId() + " ya ha sido aprobada o rechazada",
                 httpStatus
         );
 

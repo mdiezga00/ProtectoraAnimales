@@ -1,10 +1,7 @@
 package com.hiberus.controladores;
 
 import com.hiberus.dto.*;
-import com.hiberus.exception.AdoptanteNotFoundException;
-import com.hiberus.exception.AnimalNotFoundException;
-import com.hiberus.exception.SolicitudNotFoundException;
-import com.hiberus.exception.VoluntarioNotFoundException;
+import com.hiberus.exception.*;
 import com.hiberus.modelos.Adoptante;
 import com.hiberus.modelos.Animal;
 import com.hiberus.modelos.Solicitud;
@@ -98,7 +95,7 @@ public class ControladorAdopciones {
         }
         Solicitud solicitud = optionalSolicitud.get();
         if (solicitud.getEstado()!= EstadoSolicitud.PENDIENTE){
-            throw new IllegalArgumentException("Esta solicitud ya ha sido aprobada o rechazada");
+            throw new SolicitudYaGestionadaException(solicitud.getId());
         }
         solicitud.setEstado(EstadoSolicitud.RECHAZADA);
 
@@ -117,7 +114,7 @@ public class ControladorAdopciones {
         }
         Solicitud solicitud = optionalSolicitud.get();
         if (solicitud.getEstado()!= EstadoSolicitud.PENDIENTE){
-            throw new IllegalArgumentException("Esta solicitud ya ha sido aprobada o rechazada");
+            throw new SolicitudYaGestionadaException(solicitud.getId());
         }
         solicitud.setEstado(EstadoSolicitud.APROBADA);
 
