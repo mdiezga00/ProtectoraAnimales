@@ -1,22 +1,23 @@
-2023-10-16 09:21:24.631  INFO [adopciones,,] 32700 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
-2023-10-16 09:21:24.980  INFO [adopciones,,] 32700 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=adopciones, profiles=[default], label=null, version=null, state=null
-2023-10-16 09:21:24.982  INFO [adopciones,,] 32700 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/configuracion/adopciones.yml'}]
-2023-10-16 09:21:24.999  INFO [adopciones,,] 32700 --- [main] com.hiberus.ApplicationAdopciones        : No active profile set, falling back to 1 default profile: "default"
-2023-10-16 09:21:26.641  INFO [adopciones,,] 32700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-10-16 09:21:26.841  INFO [adopciones,,] 32700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 185 ms. Found 3 JPA repository interfaces.
-2023-10-16 09:21:27.597  INFO [adopciones,,] 32700 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=53c141e4-1804-3309-853b-d7a45a1bcc84
-2023-10-16 09:21:28.849  INFO [adopciones,,] 32700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
-2023-10-16 09:21:28.863  INFO [adopciones,,] 32700 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-10-16 09:21:28.864  INFO [adopciones,,] 32700 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2023-10-16 09:21:29.119  INFO [adopciones,,] 32700 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-10-16 09:21:29.119  INFO [adopciones,,] 32700 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4098 ms
-2023-10-16 09:21:32.176  INFO [adopciones,,] 32700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-10-16 09:21:32.322  INFO [adopciones,,] 32700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
-2023-10-16 09:21:32.550  INFO [adopciones,,] 32700 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2023-10-16 09:21:32.738  INFO [adopciones,,] 32700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-10-16 09:21:32.941  INFO [adopciones,,] 32700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-10-16 09:21:32.956  INFO [adopciones,,] 32700 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
-2023-10-16 09:21:33.835  WARN [adopciones,,] 32700 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table adoptante_animales drop constraint FKrdmqyc9npb0xx8pflwvnvadh6" via JDBC Statement
+2023-10-19 09:36:03.087  INFO [adopciones,,] 25236 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2023-10-19 09:36:04.055  INFO [adopciones,,] 25236 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=adopciones, profiles=[default], label=null, version=null, state=null
+2023-10-19 09:36:04.058  INFO [adopciones,,] 25236 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/configuracion/adopciones.yml'}]
+2023-10-19 09:36:04.083  INFO [adopciones,,] 25236 --- [main] com.hiberus.ApplicationAdopciones        : No active profile set, falling back to 1 default profile: "default"
+2023-10-19 09:36:07.640  INFO [adopciones,,] 25236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-19 09:36:08.007  INFO [adopciones,,] 25236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 335 ms. Found 3 JPA repository interfaces.
+2023-10-19 09:36:09.425  INFO [adopciones,,] 25236 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=53c141e4-1804-3309-853b-d7a45a1bcc84
+2023-10-19 09:36:11.963  INFO [adopciones,,] 25236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2023-10-19 09:36:11.989  INFO [adopciones,,] 25236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-19 09:36:11.990  INFO [adopciones,,] 25236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-10-19 09:36:12.511  INFO [adopciones,,] 25236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-19 09:36:12.512  INFO [adopciones,,] 25236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8408 ms
+2023-10-19 09:36:15.748  WARN [adopciones,,] 25236 --- [pool-2-thread-1] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out}]
+2023-10-19 09:36:19.319  INFO [adopciones,,] 25236 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-19 09:36:19.438  INFO [adopciones,,] 25236 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-10-19 09:36:19.876  INFO [adopciones,,] 25236 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-19 09:36:20.096  INFO [adopciones,,] 25236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-19 09:36:20.467  INFO [adopciones,,] 25236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-19 09:36:20.512  INFO [adopciones,,] 25236 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-19 09:36:22.017  WARN [adopciones,,] 25236 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table adoptante_animales drop constraint FKrdmqyc9npb0xx8pflwvnvadh6" via JDBC Statement
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table adoptante_animales drop constraint FKrdmqyc9npb0xx8pflwvnvadh6" via JDBC Statement
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
@@ -70,289 +71,90 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation "adoptante_animale
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
 	... 35 common frames omitted
 
-2023-10-16 09:21:33.839  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:21:33.840  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "adoptante_animales" does not exist, skipping
-2023-10-16 09:21:33.841  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:21:33.841  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "adoptantes" does not exist, skipping
-2023-10-16 09:21:33.843  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:21:33.843  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "animales" does not exist, skipping
-2023-10-16 09:21:33.845  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:21:33.845  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "solicitudes" does not exist, skipping
-2023-10-16 09:21:33.847  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:21:33.847  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "voluntarios" does not exist, skipping
-2023-10-16 09:21:33.848  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:21:33.849  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_adoptantes" does not exist, skipping
-2023-10-16 09:21:33.850  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:21:33.850  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_animales" does not exist, skipping
-2023-10-16 09:21:33.851  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:21:33.851  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_solicitudes" does not exist, skipping
-2023-10-16 09:21:33.853  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:21:33.853  WARN [adopciones,,] 32700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_voluntarios" does not exist, skipping
-2023-10-16 09:21:33.988  INFO [adopciones,,] 32700 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-10-16 09:21:33.997  INFO [adopciones,,] 32700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-10-16 09:21:34.728  WARN [adopciones,,] 32700 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-10-16 09:21:34.841  INFO [adopciones,,] 32700 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'animales' URL not provided. Will try picking an instance via load-balancing.
-2023-10-16 09:21:35.031  INFO [adopciones,,] 32700 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'adoptantes' URL not provided. Will try picking an instance via load-balancing.
-2023-10-16 09:21:35.064  INFO [adopciones,,] 32700 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'voluntarios' URL not provided. Will try picking an instance via load-balancing.
-2023-10-16 09:21:35.820  INFO [adopciones,,] 32700 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 27 endpoint(s) beneath base path '/actuator'
-2023-10-16 09:21:37.766  INFO [adopciones,,] 32700 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2023-10-16 09:21:38.254  WARN [adopciones,,] 32700 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2023-10-16 09:21:38.395  INFO [adopciones,,] 32700 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2023-10-16 09:21:38.484  INFO [adopciones,,] 32700 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2023-10-16 09:21:38.491  INFO [adopciones,,] 32700 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2023-10-16 09:21:38.546  INFO [adopciones,,] 32700 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2023-10-16 09:21:38.547  INFO [adopciones,,] 32700 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2023-10-16 09:21:38.547  INFO [adopciones,,] 32700 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2023-10-16 09:21:38.547  INFO [adopciones,,] 32700 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2023-10-16 09:21:38.547  INFO [adopciones,,] 32700 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2023-10-16 09:21:38.547  INFO [adopciones,,] 32700 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2023-10-16 09:21:38.547  INFO [adopciones,,] 32700 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2023-10-16 09:21:38.732  INFO [adopciones,,] 32700 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2023-10-16 09:21:38.734  INFO [adopciones,,] 32700 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2023-10-16 09:21:38.739  INFO [adopciones,,] 32700 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2023-10-16 09:21:38.744  INFO [adopciones,,] 32700 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1697440898743 with initial instances count: 1
-2023-10-16 09:21:38.753  INFO [adopciones,,] 32700 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADOPCIONES with eureka with status UP
-2023-10-16 09:21:38.754  INFO [adopciones,,] 32700 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697440898754, current=UP, previous=STARTING]
-2023-10-16 09:21:38.760  INFO [adopciones,,] 32700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:4251ea8f233750fb914527eb0dc66770: registering service...
-2023-10-16 09:21:38.806  INFO [adopciones,,] 32700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
-2023-10-16 09:21:38.807  INFO [adopciones,,] 32700 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
-2023-10-16 09:21:38.822  INFO [adopciones,,] 32700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:4251ea8f233750fb914527eb0dc66770 - registration status: 204
-2023-10-16 09:21:39.424  INFO [adopciones,,] 32700 --- [main] com.hiberus.ApplicationAdopciones        : Started ApplicationAdopciones in 16.411 seconds (JVM running for 17.101)
-2023-10-16 09:21:40.201  INFO [adopciones,d0f6148e67379383,d0f6148e67379383] 32700 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-10-16 09:21:40.201  INFO [adopciones,d0f6148e67379383,d0f6148e67379383] 32700 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-10-16 09:21:40.203  INFO [adopciones,d0f6148e67379383,d0f6148e67379383] 32700 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-10-16 09:23:12.813 ERROR [adopciones,0195bfbf9889c8d3,0195bfbf9889c8d3] 32700 --- [http-nio-8083-exec-8] c.h.s.Impl.ServicioVoluntariosImpl       : Se ha devuelto VoluntarioDto por defecto
-2023-10-16 09:23:13.090 ERROR [adopciones,59d90cb29b93f981,59d90cb29b93f981] 32700 --- [http-nio-8083-exec-9] c.h.s.Impl.ServicioVoluntariosImpl       : Se ha devuelto VoluntarioDto por defecto
-2023-10-16 09:23:44.060 ERROR [adopciones,001f48ba9c995d07,001f48ba9c995d07] 32700 --- [http-nio-8083-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Esta solicitud ya ha sido aprobada o rechazada] with root cause
-
-java.lang.IllegalArgumentException: Esta solicitud ya ha sido aprobada o rechazada
-	at com.hiberus.controladores.ControladorAdopciones.aceptarSolicitud(ControladorAdopciones.java:120) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.cloud.sleuth.instrument.web.servlet.TracingFilter.doFilter(TracingFilter.java:68) ~[spring-cloud-sleuth-instrumentation-3.1.4.jar:3.1.4]
-	at org.springframework.cloud.sleuth.autoconfig.instrument.web.TraceWebServletConfiguration$LazyTracingFilter.doFilter(TraceWebServletConfiguration.java:131) ~[spring-cloud-sleuth-autoconfigure-3.1.4.jar:3.1.4]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.5.jar:2.7.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.cloud.sleuth.instrument.web.tomcat.TraceValve.invoke(TraceValve.java:103) ~[spring-cloud-sleuth-instrumentation-3.1.4.jar:3.1.4]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-10-16 09:23:44.155 ERROR [adopciones,98f7e6c1351fe02e,98f7e6c1351fe02e] 32700 --- [http-nio-8083-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Esta solicitud ya ha sido aprobada o rechazada] with root cause
-
-java.lang.IllegalArgumentException: Esta solicitud ya ha sido aprobada o rechazada
-	at com.hiberus.controladores.ControladorAdopciones.rechazarSolicitud(ControladorAdopciones.java:101) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.cloud.sleuth.instrument.web.servlet.TracingFilter.doFilter(TracingFilter.java:68) ~[spring-cloud-sleuth-instrumentation-3.1.4.jar:3.1.4]
-	at org.springframework.cloud.sleuth.autoconfig.instrument.web.TraceWebServletConfiguration$LazyTracingFilter.doFilter(TraceWebServletConfiguration.java:131) ~[spring-cloud-sleuth-autoconfigure-3.1.4.jar:3.1.4]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.5.jar:2.7.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.cloud.sleuth.instrument.web.tomcat.TraceValve.invoke(TraceValve.java:103) ~[spring-cloud-sleuth-instrumentation-3.1.4.jar:3.1.4]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-10-16 09:24:12.337 ERROR [adopciones,8c8ab901b7bc627f,8c8ab901b7bc627f] 32700 --- [http-nio-8083-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Esta solicitud ya ha sido aprobada o rechazada] with root cause
-
-java.lang.IllegalArgumentException: Esta solicitud ya ha sido aprobada o rechazada
-	at com.hiberus.controladores.ControladorAdopciones.aceptarSolicitud(ControladorAdopciones.java:120) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.cloud.sleuth.instrument.web.servlet.TracingFilter.doFilter(TracingFilter.java:68) ~[spring-cloud-sleuth-instrumentation-3.1.4.jar:3.1.4]
-	at org.springframework.cloud.sleuth.autoconfig.instrument.web.TraceWebServletConfiguration$LazyTracingFilter.doFilter(TraceWebServletConfiguration.java:131) ~[spring-cloud-sleuth-autoconfigure-3.1.4.jar:3.1.4]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.5.jar:2.7.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.cloud.sleuth.instrument.web.tomcat.TraceValve.invoke(TraceValve.java:103) ~[spring-cloud-sleuth-instrumentation-3.1.4.jar:3.1.4]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-10-16 09:26:38.560  INFO [adopciones,,] 32700 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2023-10-16 09:31:38.569  INFO [adopciones,,] 32700 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2023-10-16 09:36:38.575  INFO [adopciones,,] 32700 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2023-10-16 09:41:38.578  INFO [adopciones,,] 32700 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2023-10-16 09:46:38.592  INFO [adopciones,,] 32700 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2023-10-16 09:51:07.036  INFO [adopciones,,] 32700 --- [Thread-5] o.s.c.s.a.z.ZipkinAutoConfiguration      : Flushing remaining spans on shutdown
-2023-10-16 09:51:07.069  INFO [adopciones,,] 32700 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADOPCIONES with eureka with status DOWN
-2023-10-16 09:51:07.070  INFO [adopciones,,] 32700 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697442667069, current=DOWN, previous=UP]
-2023-10-16 09:51:07.070  INFO [adopciones,,] 32700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:4251ea8f233750fb914527eb0dc66770: registering service...
-2023-10-16 09:51:07.083  INFO [adopciones,,] 32700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:4251ea8f233750fb914527eb0dc66770 - registration status: 204
-2023-10-16 09:51:07.215  INFO [adopciones,,] 32700 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-10-16 09:51:07.222  INFO [adopciones,,] 32700 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-10-16 09:51:07.540  INFO [adopciones,,] 32700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-10-16 09:51:07.547  INFO [adopciones,,] 32700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2023-10-16 09:51:07.550  INFO [adopciones,,] 32700 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2023-10-16 09:51:10.558  WARN [adopciones,,] 32700 --- [DiscoveryClient-1] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
-2023-10-16 09:51:10.559  INFO [adopciones,,] 32700 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2023-10-16 09:51:10.588  INFO [adopciones,,] 32700 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:4251ea8f233750fb914527eb0dc66770 - deregister  status: 200
-2023-10-16 09:51:10.593  INFO [adopciones,,] 32700 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2023-10-16 09:52:03.375  INFO [adopciones,,] 9864 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
-2023-10-16 09:52:03.726  INFO [adopciones,,] 9864 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=adopciones, profiles=[default], label=null, version=null, state=null
-2023-10-16 09:52:03.728  INFO [adopciones,,] 9864 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/configuracion/adopciones.yml'}]
-2023-10-16 09:52:03.748  INFO [adopciones,,] 9864 --- [main] com.hiberus.ApplicationAdopciones        : No active profile set, falling back to 1 default profile: "default"
-2023-10-16 09:52:05.487  INFO [adopciones,,] 9864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-10-16 09:52:05.771  INFO [adopciones,,] 9864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 266 ms. Found 3 JPA repository interfaces.
-2023-10-16 09:52:06.555  INFO [adopciones,,] 9864 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=53c141e4-1804-3309-853b-d7a45a1bcc84
-2023-10-16 09:52:07.801  INFO [adopciones,,] 9864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
-2023-10-16 09:52:07.823  INFO [adopciones,,] 9864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-10-16 09:52:07.824  INFO [adopciones,,] 9864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2023-10-16 09:52:08.072  INFO [adopciones,,] 9864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-10-16 09:52:08.073  INFO [adopciones,,] 9864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4304 ms
-2023-10-16 09:52:11.282  INFO [adopciones,,] 9864 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-10-16 09:52:11.391  INFO [adopciones,,] 9864 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
-2023-10-16 09:52:11.658  INFO [adopciones,,] 9864 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2023-10-16 09:52:11.813  INFO [adopciones,,] 9864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-10-16 09:52:12.022  INFO [adopciones,,] 9864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-10-16 09:52:12.042  INFO [adopciones,,] 9864 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
-2023-10-16 09:52:12.847  WARN [adopciones,,] 9864 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table adoptante_animales drop constraint FKrdmqyc9npb0xx8pflwvnvadh6" via JDBC Statement
+2023-10-19 09:36:22.024  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:36:22.025  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "adoptante_animales" does not exist, skipping
+2023-10-19 09:36:22.026  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:36:22.027  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "adoptantes" does not exist, skipping
+2023-10-19 09:36:22.029  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:36:22.029  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "animales" does not exist, skipping
+2023-10-19 09:36:22.031  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:36:22.032  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "solicitudes" does not exist, skipping
+2023-10-19 09:36:22.034  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:36:22.034  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "voluntarios" does not exist, skipping
+2023-10-19 09:36:22.036  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:36:22.037  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_adoptantes" does not exist, skipping
+2023-10-19 09:36:22.039  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:36:22.040  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_animales" does not exist, skipping
+2023-10-19 09:36:22.042  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:36:22.043  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_solicitudes" does not exist, skipping
+2023-10-19 09:36:22.045  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:36:22.046  WARN [adopciones,,] 25236 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_voluntarios" does not exist, skipping
+2023-10-19 09:36:22.214  INFO [adopciones,,] 25236 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-19 09:36:22.228  INFO [adopciones,,] 25236 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 09:36:23.520  WARN [adopciones,,] 25236 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-19 09:36:23.743  INFO [adopciones,,] 25236 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'animales' URL not provided. Will try picking an instance via load-balancing.
+2023-10-19 09:36:24.043  INFO [adopciones,,] 25236 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'adoptantes' URL not provided. Will try picking an instance via load-balancing.
+2023-10-19 09:36:24.124  INFO [adopciones,,] 25236 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'voluntarios' URL not provided. Will try picking an instance via load-balancing.
+2023-10-19 09:36:25.807  INFO [adopciones,,] 25236 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 27 endpoint(s) beneath base path '/actuator'
+2023-10-19 09:36:29.076  INFO [adopciones,,] 25236 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-10-19 09:36:29.972  WARN [adopciones,,] 25236 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-10-19 09:36:30.172  INFO [adopciones,,] 25236 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-10-19 09:36:30.297  INFO [adopciones,,] 25236 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-10-19 09:36:30.307  INFO [adopciones,,] 25236 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-19 09:36:30.361  INFO [adopciones,,] 25236 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-10-19 09:36:30.362  INFO [adopciones,,] 25236 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-10-19 09:36:30.362  INFO [adopciones,,] 25236 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-10-19 09:36:30.362  INFO [adopciones,,] 25236 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-10-19 09:36:30.362  INFO [adopciones,,] 25236 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-10-19 09:36:30.363  INFO [adopciones,,] 25236 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-10-19 09:36:30.363  INFO [adopciones,,] 25236 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-10-19 09:36:30.656  INFO [adopciones,,] 25236 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-10-19 09:36:30.669  INFO [adopciones,,] 25236 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-10-19 09:36:30.675  INFO [adopciones,,] 25236 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-10-19 09:36:30.691  INFO [adopciones,,] 25236 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1697700990689 with initial instances count: 1
+2023-10-19 09:36:30.710  INFO [adopciones,,] 25236 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADOPCIONES with eureka with status UP
+2023-10-19 09:36:30.712  INFO [adopciones,,] 25236 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697700990712, current=UP, previous=STARTING]
+2023-10-19 09:36:30.715  INFO [adopciones,,] 25236 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:b4250e45df60907e07948a4402f733aa: registering service...
+2023-10-19 09:36:30.775  INFO [adopciones,,] 25236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2023-10-19 09:36:30.777  INFO [adopciones,,] 25236 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2023-10-19 09:36:30.816  INFO [adopciones,,] 25236 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:b4250e45df60907e07948a4402f733aa - registration status: 204
+2023-10-19 09:36:31.956  INFO [adopciones,,] 25236 --- [main] com.hiberus.ApplicationAdopciones        : Started ApplicationAdopciones in 31.451 seconds (JVM running for 32.398)
+2023-10-19 09:36:34.036  INFO [adopciones,92c2bb77597e90d9,92c2bb77597e90d9] 25236 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-19 09:36:34.037  INFO [adopciones,92c2bb77597e90d9,92c2bb77597e90d9] 25236 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-19 09:36:34.045  INFO [adopciones,92c2bb77597e90d9,92c2bb77597e90d9] 25236 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2023-10-19 09:41:30.385  INFO [adopciones,,] 25236 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-19 09:45:16.578  INFO [adopciones,,] 25236 --- [Thread-5] o.s.c.s.a.z.ZipkinAutoConfiguration      : Flushing remaining spans on shutdown
+2023-10-19 09:45:16.584  INFO [adopciones,,] 25236 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADOPCIONES with eureka with status DOWN
+2023-10-19 09:45:16.585  INFO [adopciones,,] 25236 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697701516585, current=DOWN, previous=UP]
+2023-10-19 09:45:16.586  INFO [adopciones,,] 25236 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:b4250e45df60907e07948a4402f733aa: registering service...
+2023-10-19 09:45:16.597  INFO [adopciones,,] 25236 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:b4250e45df60907e07948a4402f733aa - registration status: 204
+2023-10-19 09:45:16.684  INFO [adopciones,,] 25236 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 09:45:16.686  INFO [adopciones,,] 25236 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-10-19 09:45:17.601  INFO [adopciones,,] 25236 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-19 09:45:17.608  INFO [adopciones,,] 25236 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-19 09:45:17.611  INFO [adopciones,,] 25236 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-10-19 09:45:20.635  INFO [adopciones,,] 25236 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-10-19 09:45:20.647  INFO [adopciones,,] 25236 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:b4250e45df60907e07948a4402f733aa - deregister  status: 200
+2023-10-19 09:45:20.659  INFO [adopciones,,] 25236 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-10-19 09:45:28.377  INFO [adopciones,,] 6104 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2023-10-19 09:45:28.823  INFO [adopciones,,] 6104 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=adopciones, profiles=[default], label=null, version=null, state=null
+2023-10-19 09:45:28.825  INFO [adopciones,,] 6104 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/configuracion/adopciones.yml'}]
+2023-10-19 09:45:28.846  INFO [adopciones,,] 6104 --- [main] com.hiberus.ApplicationAdopciones        : No active profile set, falling back to 1 default profile: "default"
+2023-10-19 09:45:31.164  INFO [adopciones,,] 6104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-19 09:45:31.442  INFO [adopciones,,] 6104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 260 ms. Found 3 JPA repository interfaces.
+2023-10-19 09:45:32.431  INFO [adopciones,,] 6104 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=53c141e4-1804-3309-853b-d7a45a1bcc84
+2023-10-19 09:45:34.212  INFO [adopciones,,] 6104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2023-10-19 09:45:34.234  INFO [adopciones,,] 6104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-19 09:45:34.235  INFO [adopciones,,] 6104 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-10-19 09:45:34.569  INFO [adopciones,,] 6104 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-19 09:45:34.571  INFO [adopciones,,] 6104 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5701 ms
+2023-10-19 09:45:39.189  INFO [adopciones,,] 6104 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-19 09:45:39.316  INFO [adopciones,,] 6104 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-10-19 09:45:39.739  INFO [adopciones,,] 6104 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-19 09:45:39.972  INFO [adopciones,,] 6104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-19 09:45:40.261  INFO [adopciones,,] 6104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-19 09:45:40.286  INFO [adopciones,,] 6104 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-19 09:45:41.745  WARN [adopciones,,] 6104 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table adoptante_animales drop constraint FKrdmqyc9npb0xx8pflwvnvadh6" via JDBC Statement
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table adoptante_animales drop constraint FKrdmqyc9npb0xx8pflwvnvadh6" via JDBC Statement
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
@@ -406,154 +208,96 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation "adoptante_animale
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
 	... 35 common frames omitted
 
-2023-10-16 09:52:12.850  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:52:12.850  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "adoptante_animales" does not exist, skipping
-2023-10-16 09:52:12.851  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:52:12.852  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "adoptantes" does not exist, skipping
-2023-10-16 09:52:12.853  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:52:12.853  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "animales" does not exist, skipping
-2023-10-16 09:52:12.854  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:52:12.855  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "solicitudes" does not exist, skipping
-2023-10-16 09:52:12.856  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:52:12.856  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "voluntarios" does not exist, skipping
-2023-10-16 09:52:12.857  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:52:12.858  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_adoptantes" does not exist, skipping
-2023-10-16 09:52:12.859  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:52:12.859  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_animales" does not exist, skipping
-2023-10-16 09:52:12.860  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:52:12.861  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_solicitudes" does not exist, skipping
-2023-10-16 09:52:12.862  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:52:12.862  WARN [adopciones,,] 9864 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_voluntarios" does not exist, skipping
-2023-10-16 09:52:12.936  INFO [adopciones,,] 9864 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-10-16 09:52:12.948  INFO [adopciones,,] 9864 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-10-16 09:52:13.613  WARN [adopciones,,] 9864 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-10-16 09:52:13.726  INFO [adopciones,,] 9864 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'animales' URL not provided. Will try picking an instance via load-balancing.
-2023-10-16 09:52:13.868  INFO [adopciones,,] 9864 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'adoptantes' URL not provided. Will try picking an instance via load-balancing.
-2023-10-16 09:52:13.900  INFO [adopciones,,] 9864 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'voluntarios' URL not provided. Will try picking an instance via load-balancing.
-2023-10-16 09:52:14.579  INFO [adopciones,,] 9864 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 27 endpoint(s) beneath base path '/actuator'
-2023-10-16 09:52:16.104  INFO [adopciones,,] 9864 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2023-10-16 09:52:16.634  WARN [adopciones,,] 9864 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2023-10-16 09:52:16.754  INFO [adopciones,,] 9864 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2023-10-16 09:52:16.891  INFO [adopciones,,] 9864 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2023-10-16 09:52:16.898  INFO [adopciones,,] 9864 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2023-10-16 09:52:16.927  INFO [adopciones,,] 9864 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2023-10-16 09:52:16.927  INFO [adopciones,,] 9864 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2023-10-16 09:52:16.927  INFO [adopciones,,] 9864 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2023-10-16 09:52:16.927  INFO [adopciones,,] 9864 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2023-10-16 09:52:16.928  INFO [adopciones,,] 9864 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2023-10-16 09:52:16.928  INFO [adopciones,,] 9864 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2023-10-16 09:52:16.928  INFO [adopciones,,] 9864 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2023-10-16 09:52:17.067  INFO [adopciones,,] 9864 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2023-10-16 09:52:17.069  INFO [adopciones,,] 9864 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2023-10-16 09:52:17.073  INFO [adopciones,,] 9864 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2023-10-16 09:52:17.079  INFO [adopciones,,] 9864 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1697442737077 with initial instances count: 4
-2023-10-16 09:52:17.087  INFO [adopciones,,] 9864 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADOPCIONES with eureka with status UP
-2023-10-16 09:52:17.088  INFO [adopciones,,] 9864 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697442737088, current=UP, previous=STARTING]
-2023-10-16 09:52:17.093  INFO [adopciones,,] 9864 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:8aa4600e65e9fffe7392993800d514c3: registering service...
-2023-10-16 09:52:17.143  INFO [adopciones,,] 9864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
-2023-10-16 09:52:17.144  INFO [adopciones,,] 9864 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
-2023-10-16 09:52:17.162  INFO [adopciones,,] 9864 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:8aa4600e65e9fffe7392993800d514c3 - registration status: 204
-2023-10-16 09:52:17.747  INFO [adopciones,,] 9864 --- [main] com.hiberus.ApplicationAdopciones        : Started ApplicationAdopciones in 15.971 seconds (JVM running for 16.628)
-2023-10-16 09:52:18.017  INFO [adopciones,98f0447681119dfd,98f0447681119dfd] 9864 --- [http-nio-8083-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-10-16 09:52:18.017  INFO [adopciones,98f0447681119dfd,98f0447681119dfd] 9864 --- [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-10-16 09:52:18.019  INFO [adopciones,98f0447681119dfd,98f0447681119dfd] 9864 --- [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-10-16 09:53:44.817 ERROR [adopciones,1190139c55ffe6f1,1190139c55ffe6f1] 9864 --- [http-nio-8083-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Esta solicitud ya ha sido aprobada o rechazada] with root cause
-
-java.lang.IllegalArgumentException: Esta solicitud ya ha sido aprobada o rechazada
-	at com.hiberus.controladores.ControladorAdopciones.aceptarSolicitud(ControladorAdopciones.java:120) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.cloud.sleuth.instrument.web.servlet.TracingFilter.doFilter(TracingFilter.java:68) ~[spring-cloud-sleuth-instrumentation-3.1.4.jar:3.1.4]
-	at org.springframework.cloud.sleuth.autoconfig.instrument.web.TraceWebServletConfiguration$LazyTracingFilter.doFilter(TraceWebServletConfiguration.java:131) ~[spring-cloud-sleuth-autoconfigure-3.1.4.jar:3.1.4]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.7.5.jar:2.7.5]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.springframework.cloud.sleuth.instrument.web.tomcat.TraceValve.invoke(TraceValve.java:103) ~[spring-cloud-sleuth-instrumentation-3.1.4.jar:3.1.4]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-10-16 09:57:16.930  INFO [adopciones,,] 9864 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2023-10-16 09:57:38.089  INFO [adopciones,,] 9864 --- [Thread-5] o.s.c.s.a.z.ZipkinAutoConfiguration      : Flushing remaining spans on shutdown
-2023-10-16 09:57:38.091  INFO [adopciones,,] 9864 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADOPCIONES with eureka with status DOWN
-2023-10-16 09:57:38.092  INFO [adopciones,,] 9864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697443058092, current=DOWN, previous=UP]
-2023-10-16 09:57:38.092  INFO [adopciones,,] 9864 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:8aa4600e65e9fffe7392993800d514c3: registering service...
-2023-10-16 09:57:38.097  INFO [adopciones,,] 9864 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:8aa4600e65e9fffe7392993800d514c3 - registration status: 204
-2023-10-16 09:57:38.131  INFO [adopciones,,] 9864 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-10-16 09:57:38.132  INFO [adopciones,,] 9864 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-10-16 09:57:38.384  INFO [adopciones,,] 9864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-10-16 09:57:38.390  INFO [adopciones,,] 9864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2023-10-16 09:57:38.392  INFO [adopciones,,] 9864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2023-10-16 09:57:41.406  INFO [adopciones,,] 9864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2023-10-16 09:57:41.411  INFO [adopciones,,] 9864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:8aa4600e65e9fffe7392993800d514c3 - deregister  status: 200
-2023-10-16 09:57:41.414  INFO [adopciones,,] 9864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2023-10-16 09:57:48.181  INFO [adopciones,,] 34152 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
-2023-10-16 09:57:48.353  INFO [adopciones,,] 34152 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=adopciones, profiles=[default], label=null, version=null, state=null
-2023-10-16 09:57:48.354  INFO [adopciones,,] 34152 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/configuracion/adopciones.yml'}]
-2023-10-16 09:57:48.371  INFO [adopciones,,] 34152 --- [main] com.hiberus.ApplicationAdopciones        : No active profile set, falling back to 1 default profile: "default"
-2023-10-16 09:57:50.035  INFO [adopciones,,] 34152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-10-16 09:57:50.231  INFO [adopciones,,] 34152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 178 ms. Found 3 JPA repository interfaces.
-2023-10-16 09:57:50.935  INFO [adopciones,,] 34152 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=53c141e4-1804-3309-853b-d7a45a1bcc84
-2023-10-16 09:57:52.162  INFO [adopciones,,] 34152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
-2023-10-16 09:57:52.175  INFO [adopciones,,] 34152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-10-16 09:57:52.176  INFO [adopciones,,] 34152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
-2023-10-16 09:57:52.409  INFO [adopciones,,] 34152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-10-16 09:57:52.409  INFO [adopciones,,] 34152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4018 ms
-2023-10-16 09:57:55.698  INFO [adopciones,,] 34152 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-10-16 09:57:55.816  INFO [adopciones,,] 34152 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
-2023-10-16 09:57:56.062  INFO [adopciones,,] 34152 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2023-10-16 09:57:56.174  INFO [adopciones,,] 34152 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-10-16 09:57:56.348  INFO [adopciones,,] 34152 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-10-16 09:57:56.371  INFO [adopciones,,] 34152 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
-2023-10-16 09:57:57.325  WARN [adopciones,,] 34152 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table adoptante_animales drop constraint FKrdmqyc9npb0xx8pflwvnvadh6" via JDBC Statement
+2023-10-19 09:45:41.752  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:45:41.753  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "adoptante_animales" does not exist, skipping
+2023-10-19 09:45:41.755  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:45:41.755  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "adoptantes" does not exist, skipping
+2023-10-19 09:45:41.758  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:45:41.759  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "animales" does not exist, skipping
+2023-10-19 09:45:41.761  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:45:41.762  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "solicitudes" does not exist, skipping
+2023-10-19 09:45:41.764  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:45:41.766  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "voluntarios" does not exist, skipping
+2023-10-19 09:45:41.769  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:45:41.770  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_adoptantes" does not exist, skipping
+2023-10-19 09:45:41.772  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:45:41.773  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_animales" does not exist, skipping
+2023-10-19 09:45:41.775  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:45:41.776  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_solicitudes" does not exist, skipping
+2023-10-19 09:45:41.779  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 09:45:41.780  WARN [adopciones,,] 6104 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_voluntarios" does not exist, skipping
+2023-10-19 09:45:41.913  INFO [adopciones,,] 6104 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-19 09:45:41.936  INFO [adopciones,,] 6104 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 09:45:43.305  WARN [adopciones,,] 6104 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-19 09:45:43.652  INFO [adopciones,,] 6104 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'animales' URL not provided. Will try picking an instance via load-balancing.
+2023-10-19 09:45:44.051  INFO [adopciones,,] 6104 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'adoptantes' URL not provided. Will try picking an instance via load-balancing.
+2023-10-19 09:45:44.156  INFO [adopciones,,] 6104 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'voluntarios' URL not provided. Will try picking an instance via load-balancing.
+2023-10-19 09:45:45.583  INFO [adopciones,,] 6104 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 27 endpoint(s) beneath base path '/actuator'
+2023-10-19 09:45:47.499  INFO [adopciones,,] 6104 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-10-19 09:45:48.282  WARN [adopciones,,] 6104 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-10-19 09:45:48.465  INFO [adopciones,,] 6104 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-10-19 09:45:48.614  INFO [adopciones,,] 6104 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-10-19 09:45:48.623  INFO [adopciones,,] 6104 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-19 09:45:48.673  INFO [adopciones,,] 6104 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-10-19 09:45:48.673  INFO [adopciones,,] 6104 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-10-19 09:45:48.673  INFO [adopciones,,] 6104 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-10-19 09:45:48.674  INFO [adopciones,,] 6104 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-10-19 09:45:48.674  INFO [adopciones,,] 6104 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-10-19 09:45:48.674  INFO [adopciones,,] 6104 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-10-19 09:45:48.674  INFO [adopciones,,] 6104 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-10-19 09:45:48.946  INFO [adopciones,,] 6104 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-10-19 09:45:48.948  INFO [adopciones,,] 6104 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-10-19 09:45:48.951  INFO [adopciones,,] 6104 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-10-19 09:45:48.956  INFO [adopciones,,] 6104 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1697701548954 with initial instances count: 4
+2023-10-19 09:45:48.974  INFO [adopciones,,] 6104 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADOPCIONES with eureka with status UP
+2023-10-19 09:45:48.975  INFO [adopciones,,] 6104 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697701548975, current=UP, previous=STARTING]
+2023-10-19 09:45:48.978  INFO [adopciones,,] 6104 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:52782cc8c5471d5e87fb29c2dc19b112: registering service...
+2023-10-19 09:45:49.027  INFO [adopciones,,] 6104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2023-10-19 09:45:49.028  INFO [adopciones,,] 6104 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2023-10-19 09:45:49.036  INFO [adopciones,,] 6104 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:52782cc8c5471d5e87fb29c2dc19b112 - registration status: 204
+2023-10-19 09:45:49.942  INFO [adopciones,,] 6104 --- [main] com.hiberus.ApplicationAdopciones        : Started ApplicationAdopciones in 23.576 seconds (JVM running for 24.676)
+2023-10-19 09:45:50.060  INFO [adopciones,fda0f1aab3b19afb,fda0f1aab3b19afb] 6104 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-19 09:45:50.060  INFO [adopciones,fda0f1aab3b19afb,fda0f1aab3b19afb] 6104 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-19 09:45:50.063  INFO [adopciones,fda0f1aab3b19afb,fda0f1aab3b19afb] 6104 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-10-19 09:50:48.681  INFO [adopciones,,] 6104 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-19 09:55:48.687  INFO [adopciones,,] 6104 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-19 10:00:48.702  INFO [adopciones,,] 6104 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-19 10:05:48.711  INFO [adopciones,,] 6104 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-19 10:10:48.727  INFO [adopciones,,] 6104 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-19 10:15:48.734  INFO [adopciones,,] 6104 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-19 10:20:48.745  INFO [adopciones,,] 6104 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-19 10:20:59.692  INFO [adopciones,,] 6104 --- [Thread-5] o.s.c.s.a.z.ZipkinAutoConfiguration      : Flushing remaining spans on shutdown
+2023-10-19 10:20:59.748  INFO [adopciones,,] 6104 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADOPCIONES with eureka with status DOWN
+2023-10-19 10:20:59.749  INFO [adopciones,,] 6104 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697703659749, current=DOWN, previous=UP]
+2023-10-19 10:20:59.750  INFO [adopciones,,] 6104 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:52782cc8c5471d5e87fb29c2dc19b112: registering service...
+2023-10-19 10:20:59.784  INFO [adopciones,,] 6104 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:52782cc8c5471d5e87fb29c2dc19b112 - registration status: 204
+2023-10-19 10:20:59.958  INFO [adopciones,,] 6104 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 10:20:59.966  INFO [adopciones,,] 6104 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-10-19 10:21:00.961  INFO [adopciones,,] 6104 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-19 10:21:00.974  INFO [adopciones,,] 6104 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-19 10:21:00.979  INFO [adopciones,,] 6104 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-10-19 10:21:03.984  INFO [adopciones,,] 6104 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-10-19 10:21:03.992  INFO [adopciones,,] 6104 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:52782cc8c5471d5e87fb29c2dc19b112 - deregister  status: 200
+2023-10-19 10:21:03.998  INFO [adopciones,,] 6104 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-10-19 10:26:12.998  INFO [adopciones,,] 6456 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2023-10-19 10:26:13.410  INFO [adopciones,,] 6456 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=adopciones, profiles=[default], label=null, version=null, state=null
+2023-10-19 10:26:13.412  INFO [adopciones,,] 6456 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/configuracion/adopciones.yml'}]
+2023-10-19 10:26:13.434  INFO [adopciones,,] 6456 --- [main] com.hiberus.ApplicationAdopciones        : No active profile set, falling back to 1 default profile: "default"
+2023-10-19 10:26:15.039  INFO [adopciones,,] 6456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-19 10:26:15.221  INFO [adopciones,,] 6456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 170 ms. Found 3 JPA repository interfaces.
+2023-10-19 10:26:15.836  INFO [adopciones,,] 6456 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=53c141e4-1804-3309-853b-d7a45a1bcc84
+2023-10-19 10:26:16.918  INFO [adopciones,,] 6456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2023-10-19 10:26:16.934  INFO [adopciones,,] 6456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-19 10:26:16.935  INFO [adopciones,,] 6456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-10-19 10:26:17.142  INFO [adopciones,,] 6456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-19 10:26:17.142  INFO [adopciones,,] 6456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3685 ms
+2023-10-19 10:26:20.348  INFO [adopciones,,] 6456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-19 10:26:20.461  INFO [adopciones,,] 6456 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-10-19 10:26:20.723  INFO [adopciones,,] 6456 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-19 10:26:20.898  INFO [adopciones,,] 6456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-19 10:26:21.129  INFO [adopciones,,] 6456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-19 10:26:21.168  INFO [adopciones,,] 6456 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-19 10:26:22.061  WARN [adopciones,,] 6456 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table adoptante_animales drop constraint FKrdmqyc9npb0xx8pflwvnvadh6" via JDBC Statement
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table adoptante_animales drop constraint FKrdmqyc9npb0xx8pflwvnvadh6" via JDBC Statement
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
@@ -607,73 +351,211 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation "adoptante_animale
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
 	... 35 common frames omitted
 
-2023-10-16 09:57:57.328  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:57:57.328  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "adoptante_animales" does not exist, skipping
-2023-10-16 09:57:57.330  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:57:57.330  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "adoptantes" does not exist, skipping
-2023-10-16 09:57:57.331  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:57:57.331  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "animales" does not exist, skipping
-2023-10-16 09:57:57.332  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:57:57.332  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "solicitudes" does not exist, skipping
-2023-10-16 09:57:57.333  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:57:57.333  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "voluntarios" does not exist, skipping
-2023-10-16 09:57:57.334  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:57:57.334  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_adoptantes" does not exist, skipping
-2023-10-16 09:57:57.335  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:57:57.335  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_animales" does not exist, skipping
-2023-10-16 09:57:57.336  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:57:57.336  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_solicitudes" does not exist, skipping
-2023-10-16 09:57:57.337  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 09:57:57.337  WARN [adopciones,,] 34152 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_voluntarios" does not exist, skipping
-2023-10-16 09:57:57.391  INFO [adopciones,,] 34152 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-10-16 09:57:57.401  INFO [adopciones,,] 34152 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-10-16 09:57:58.033  WARN [adopciones,,] 34152 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-10-16 09:57:58.124  INFO [adopciones,,] 34152 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'animales' URL not provided. Will try picking an instance via load-balancing.
-2023-10-16 09:57:58.279  INFO [adopciones,,] 34152 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'adoptantes' URL not provided. Will try picking an instance via load-balancing.
-2023-10-16 09:57:58.309  INFO [adopciones,,] 34152 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'voluntarios' URL not provided. Will try picking an instance via load-balancing.
-2023-10-16 09:57:58.909  INFO [adopciones,,] 34152 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 27 endpoint(s) beneath base path '/actuator'
-2023-10-16 09:58:00.388  INFO [adopciones,,] 34152 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2023-10-16 09:58:00.809  WARN [adopciones,,] 34152 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2023-10-16 09:58:00.913  INFO [adopciones,,] 34152 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2023-10-16 09:58:01.060  INFO [adopciones,,] 34152 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2023-10-16 09:58:01.068  INFO [adopciones,,] 34152 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2023-10-16 09:58:01.106  INFO [adopciones,,] 34152 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2023-10-16 09:58:01.107  INFO [adopciones,,] 34152 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2023-10-16 09:58:01.107  INFO [adopciones,,] 34152 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2023-10-16 09:58:01.107  INFO [adopciones,,] 34152 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2023-10-16 09:58:01.108  INFO [adopciones,,] 34152 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2023-10-16 09:58:01.108  INFO [adopciones,,] 34152 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2023-10-16 09:58:01.108  INFO [adopciones,,] 34152 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2023-10-16 09:58:01.251  INFO [adopciones,,] 34152 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2023-10-16 09:58:01.253  INFO [adopciones,,] 34152 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2023-10-16 09:58:01.257  INFO [adopciones,,] 34152 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2023-10-16 09:58:01.260  INFO [adopciones,,] 34152 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1697443081260 with initial instances count: 4
-2023-10-16 09:58:01.269  INFO [adopciones,,] 34152 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADOPCIONES with eureka with status UP
-2023-10-16 09:58:01.273  INFO [adopciones,,] 34152 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697443081273, current=UP, previous=STARTING]
-2023-10-16 09:58:01.277  INFO [adopciones,,] 34152 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:2cd2cbcebc72c5857a76c9adef20c023: registering service...
-2023-10-16 09:58:01.329  INFO [adopciones,,] 34152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
-2023-10-16 09:58:01.330  INFO [adopciones,,] 34152 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
-2023-10-16 09:58:01.346  INFO [adopciones,,] 34152 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:2cd2cbcebc72c5857a76c9adef20c023 - registration status: 204
-2023-10-16 09:58:01.988  INFO [adopciones,,] 34152 --- [main] com.hiberus.ApplicationAdopciones        : Started ApplicationAdopciones in 15.372 seconds (JVM running for 16.068)
-2023-10-16 09:58:02.995  INFO [adopciones,28a37d05c939951c,28a37d05c939951c] 34152 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-10-16 09:58:02.996  INFO [adopciones,28a37d05c939951c,28a37d05c939951c] 34152 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-10-16 09:58:02.998  INFO [adopciones,28a37d05c939951c,28a37d05c939951c] 34152 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-10-16 10:00:54.951  INFO [adopciones,,] 34152 --- [Thread-5] o.s.c.s.a.z.ZipkinAutoConfiguration      : Flushing remaining spans on shutdown
-2023-10-16 10:00:54.955  INFO [adopciones,,] 34152 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADOPCIONES with eureka with status DOWN
-2023-10-16 10:00:54.956  INFO [adopciones,,] 34152 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697443254956, current=DOWN, previous=UP]
-2023-10-16 10:00:54.957  INFO [adopciones,,] 34152 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:2cd2cbcebc72c5857a76c9adef20c023: registering service...
-2023-10-16 10:00:54.963  INFO [adopciones,,] 34152 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:2cd2cbcebc72c5857a76c9adef20c023 - registration status: 204
-2023-10-16 10:00:55.019  INFO [adopciones,,] 34152 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-10-16 10:00:55.019  INFO [adopciones,,] 34152 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-2023-10-16 10:00:55.041  WARN [adopciones,,] 34152 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 10:00:55.042  WARN [adopciones,,] 34152 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "voluntarios" does not exist, skipping
-2023-10-16 10:00:55.054  WARN [adopciones,,] 34152 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2023-10-16 10:00:55.054  WARN [adopciones,,] 34152 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_voluntarios" does not exist, skipping
-2023-10-16 10:00:55.703  INFO [adopciones,,] 34152 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-10-16 10:00:55.716  INFO [adopciones,,] 34152 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2023-10-16 10:00:55.718  INFO [adopciones,,] 34152 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2023-10-16 10:00:58.729  INFO [adopciones,,] 34152 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2023-10-16 10:00:58.739  INFO [adopciones,,] 34152 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/ADOPCIONES/adopciones:2cd2cbcebc72c5857a76c9adef20c023": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/ADOPCIONES/adopciones:2cd2cbcebc72c5857a76c9adef20c023": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-10-19 10:26:22.066  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:26:22.066  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "adoptante_animales" does not exist, skipping
+2023-10-19 10:26:22.068  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:26:22.068  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "adoptantes" does not exist, skipping
+2023-10-19 10:26:22.069  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:26:22.070  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "animales" does not exist, skipping
+2023-10-19 10:26:22.071  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:26:22.071  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "solicitudes" does not exist, skipping
+2023-10-19 10:26:22.073  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:26:22.073  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "voluntarios" does not exist, skipping
+2023-10-19 10:26:22.075  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:26:22.075  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_adoptantes" does not exist, skipping
+2023-10-19 10:26:22.076  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:26:22.077  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_animales" does not exist, skipping
+2023-10-19 10:26:22.078  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:26:22.079  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_solicitudes" does not exist, skipping
+2023-10-19 10:26:22.080  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:26:22.081  WARN [adopciones,,] 6456 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_voluntarios" does not exist, skipping
+2023-10-19 10:26:22.162  INFO [adopciones,,] 6456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-19 10:26:22.170  INFO [adopciones,,] 6456 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 10:26:22.717  WARN [adopciones,,] 6456 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-19 10:26:22.830  INFO [adopciones,,] 6456 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'animales' URL not provided. Will try picking an instance via load-balancing.
+2023-10-19 10:26:22.953  INFO [adopciones,,] 6456 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'adoptantes' URL not provided. Will try picking an instance via load-balancing.
+2023-10-19 10:26:22.986  INFO [adopciones,,] 6456 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'voluntarios' URL not provided. Will try picking an instance via load-balancing.
+2023-10-19 10:26:23.607  INFO [adopciones,,] 6456 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 27 endpoint(s) beneath base path '/actuator'
+2023-10-19 10:26:25.236  INFO [adopciones,,] 6456 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-10-19 10:26:25.663  WARN [adopciones,,] 6456 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-10-19 10:26:25.774  INFO [adopciones,,] 6456 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-10-19 10:26:25.864  INFO [adopciones,,] 6456 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-10-19 10:26:25.870  INFO [adopciones,,] 6456 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-19 10:26:25.898  INFO [adopciones,,] 6456 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-10-19 10:26:25.898  INFO [adopciones,,] 6456 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-10-19 10:26:25.898  INFO [adopciones,,] 6456 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-10-19 10:26:25.898  INFO [adopciones,,] 6456 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-10-19 10:26:25.899  INFO [adopciones,,] 6456 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-10-19 10:26:25.899  INFO [adopciones,,] 6456 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-10-19 10:26:25.899  INFO [adopciones,,] 6456 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-10-19 10:26:26.036  INFO [adopciones,,] 6456 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-10-19 10:26:26.040  INFO [adopciones,,] 6456 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-10-19 10:26:26.043  INFO [adopciones,,] 6456 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-10-19 10:26:26.047  INFO [adopciones,,] 6456 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1697703986046 with initial instances count: 4
+2023-10-19 10:26:26.058  INFO [adopciones,,] 6456 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADOPCIONES with eureka with status UP
+2023-10-19 10:26:26.059  INFO [adopciones,,] 6456 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697703986059, current=UP, previous=STARTING]
+2023-10-19 10:26:26.061  INFO [adopciones,,] 6456 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:8ff5b934ed95f79f5c6222e70af46d21: registering service...
+2023-10-19 10:26:26.091  INFO [adopciones,,] 6456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2023-10-19 10:26:26.092  INFO [adopciones,,] 6456 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2023-10-19 10:26:26.107  INFO [adopciones,,] 6456 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:8ff5b934ed95f79f5c6222e70af46d21 - registration status: 204
+2023-10-19 10:26:26.187  INFO [adopciones,a1bc1af0fef016a2,a1bc1af0fef016a2] 6456 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-19 10:26:26.188  INFO [adopciones,a1bc1af0fef016a2,a1bc1af0fef016a2] 6456 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-19 10:26:26.190  INFO [adopciones,a1bc1af0fef016a2,a1bc1af0fef016a2] 6456 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-19 10:26:26.626  INFO [adopciones,,] 6456 --- [main] com.hiberus.ApplicationAdopciones        : Started ApplicationAdopciones in 15.184 seconds (JVM running for 15.799)
+2023-10-19 10:27:45.568  INFO [adopciones,,] 6456 --- [Thread-5] o.s.c.s.a.z.ZipkinAutoConfiguration      : Flushing remaining spans on shutdown
+2023-10-19 10:27:45.569  INFO [adopciones,,] 6456 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADOPCIONES with eureka with status DOWN
+2023-10-19 10:27:45.570  INFO [adopciones,,] 6456 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697704065570, current=DOWN, previous=UP]
+2023-10-19 10:27:45.571  INFO [adopciones,,] 6456 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:8ff5b934ed95f79f5c6222e70af46d21: registering service...
+2023-10-19 10:27:45.583  INFO [adopciones,,] 6456 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:8ff5b934ed95f79f5c6222e70af46d21 - registration status: 204
+2023-10-19 10:27:45.640  INFO [adopciones,,] 6456 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 10:27:45.641  INFO [adopciones,,] 6456 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-10-19 10:27:46.397  INFO [adopciones,,] 6456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-19 10:27:46.406  INFO [adopciones,,] 6456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-19 10:27:46.408  INFO [adopciones,,] 6456 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-10-19 10:27:49.424  INFO [adopciones,,] 6456 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-10-19 10:27:49.429  INFO [adopciones,,] 6456 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:8ff5b934ed95f79f5c6222e70af46d21 - deregister  status: 200
+2023-10-19 10:27:49.432  INFO [adopciones,,] 6456 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-10-19 10:27:54.014  INFO [adopciones,,] 22184 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2023-10-19 10:27:54.221  INFO [adopciones,,] 22184 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=adopciones, profiles=[default], label=null, version=null, state=null
+2023-10-19 10:27:54.223  INFO [adopciones,,] 22184 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/configuracion/adopciones.yml'}]
+2023-10-19 10:27:54.248  INFO [adopciones,,] 22184 --- [main] com.hiberus.ApplicationAdopciones        : No active profile set, falling back to 1 default profile: "default"
+2023-10-19 10:27:56.018  INFO [adopciones,,] 22184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-19 10:27:56.237  INFO [adopciones,,] 22184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 200 ms. Found 3 JPA repository interfaces.
+2023-10-19 10:27:56.962  INFO [adopciones,,] 22184 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=53c141e4-1804-3309-853b-d7a45a1bcc84
+2023-10-19 10:27:58.185  INFO [adopciones,,] 22184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2023-10-19 10:27:58.202  INFO [adopciones,,] 22184 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-19 10:27:58.203  INFO [adopciones,,] 22184 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-10-19 10:27:58.378  INFO [adopciones,,] 22184 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-19 10:27:58.378  INFO [adopciones,,] 22184 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4103 ms
+2023-10-19 10:28:02.097  INFO [adopciones,,] 22184 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-19 10:28:02.183  INFO [adopciones,,] 22184 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-10-19 10:28:02.493  INFO [adopciones,,] 22184 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-19 10:28:02.658  INFO [adopciones,,] 22184 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-19 10:28:02.902  INFO [adopciones,,] 22184 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-19 10:28:02.929  INFO [adopciones,,] 22184 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-19 10:28:03.927  WARN [adopciones,,] 22184 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table adoptante_animales drop constraint FKrdmqyc9npb0xx8pflwvnvadh6" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table adoptante_animales drop constraint FKrdmqyc9npb0xx8pflwvnvadh6" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:387) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:371) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:341) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:235) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:156) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:128) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:114) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:157) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.23.jar:5.3.23]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.23.jar:5.3.23]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.23.jar:5.3.23]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.23.jar:5.3.23]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at com.hiberus.ApplicationAdopciones.main(ApplicationAdopciones.java:16) ~[classes/:na]
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "adoptante_animales" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675) ~[postgresql-42.3.7.jar:42.3.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365) ~[postgresql-42.3.7.jar:42.3.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355) ~[postgresql-42.3.7.jar:42.3.7]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490) ~[postgresql-42.3.7.jar:42.3.7]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408) ~[postgresql-42.3.7.jar:42.3.7]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:329) ~[postgresql-42.3.7.jar:42.3.7]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:315) ~[postgresql-42.3.7.jar:42.3.7]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:291) ~[postgresql-42.3.7.jar:42.3.7]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:286) ~[postgresql-42.3.7.jar:42.3.7]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54) ~[hibernate-core-5.6.12.Final.jar:5.6.12.Final]
+	... 35 common frames omitted
+
+2023-10-19 10:28:03.931  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:28:03.932  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "adoptante_animales" does not exist, skipping
+2023-10-19 10:28:03.933  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:28:03.933  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "adoptantes" does not exist, skipping
+2023-10-19 10:28:03.935  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:28:03.936  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "animales" does not exist, skipping
+2023-10-19 10:28:03.938  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:28:03.938  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "solicitudes" does not exist, skipping
+2023-10-19 10:28:03.940  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:28:03.940  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "voluntarios" does not exist, skipping
+2023-10-19 10:28:03.941  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:28:03.942  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_adoptantes" does not exist, skipping
+2023-10-19 10:28:03.944  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:28:03.944  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_animales" does not exist, skipping
+2023-10-19 10:28:03.945  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:28:03.946  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_solicitudes" does not exist, skipping
+2023-10-19 10:28:03.947  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:28:03.947  WARN [adopciones,,] 22184 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_voluntarios" does not exist, skipping
+2023-10-19 10:28:04.002  INFO [adopciones,,] 22184 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-19 10:28:04.014  INFO [adopciones,,] 22184 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 10:28:04.767  WARN [adopciones,,] 22184 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-19 10:28:04.918  INFO [adopciones,,] 22184 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'animales' URL not provided. Will try picking an instance via load-balancing.
+2023-10-19 10:28:05.091  INFO [adopciones,,] 22184 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'adoptantes' URL not provided. Will try picking an instance via load-balancing.
+2023-10-19 10:28:05.134  INFO [adopciones,,] 22184 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'voluntarios' URL not provided. Will try picking an instance via load-balancing.
+2023-10-19 10:28:05.904  INFO [adopciones,,] 22184 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 27 endpoint(s) beneath base path '/actuator'
+2023-10-19 10:28:07.751  INFO [adopciones,,] 22184 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-10-19 10:28:08.520  WARN [adopciones,,] 22184 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-10-19 10:28:08.663  INFO [adopciones,,] 22184 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-10-19 10:28:08.765  INFO [adopciones,,] 22184 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-10-19 10:28:08.775  INFO [adopciones,,] 22184 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-19 10:28:08.810  INFO [adopciones,,] 22184 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-10-19 10:28:08.811  INFO [adopciones,,] 22184 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-10-19 10:28:08.811  INFO [adopciones,,] 22184 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-10-19 10:28:08.811  INFO [adopciones,,] 22184 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-10-19 10:28:08.812  INFO [adopciones,,] 22184 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-10-19 10:28:08.812  INFO [adopciones,,] 22184 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-10-19 10:28:08.812  INFO [adopciones,,] 22184 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-10-19 10:28:08.990  INFO [adopciones,,] 22184 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-10-19 10:28:08.994  INFO [adopciones,,] 22184 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-10-19 10:28:08.998  INFO [adopciones,,] 22184 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-10-19 10:28:09.003  INFO [adopciones,,] 22184 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1697704089002 with initial instances count: 4
+2023-10-19 10:28:09.018  INFO [adopciones,,] 22184 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADOPCIONES with eureka with status UP
+2023-10-19 10:28:09.019  INFO [adopciones,,] 22184 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697704089019, current=UP, previous=STARTING]
+2023-10-19 10:28:09.021  INFO [adopciones,,] 22184 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:04c3ca54f0b1fe813c5c0ef8a9b9492f: registering service...
+2023-10-19 10:28:09.068  INFO [adopciones,,] 22184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2023-10-19 10:28:09.069  INFO [adopciones,,] 22184 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2023-10-19 10:28:09.087  INFO [adopciones,,] 22184 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:04c3ca54f0b1fe813c5c0ef8a9b9492f - registration status: 204
+2023-10-19 10:28:09.875  INFO [adopciones,,] 22184 --- [main] com.hiberus.ApplicationAdopciones        : Started ApplicationAdopciones in 17.492 seconds (JVM running for 18.112)
+2023-10-19 10:28:11.220  INFO [adopciones,00befa8a4b335a37,00befa8a4b335a37] 22184 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-19 10:28:11.221  INFO [adopciones,00befa8a4b335a37,00befa8a4b335a37] 22184 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-19 10:28:11.224  INFO [adopciones,00befa8a4b335a37,00befa8a4b335a37] 22184 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-19 10:33:08.817  INFO [adopciones,,] 22184 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-19 10:38:08.822  INFO [adopciones,,] 22184 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-19 10:38:28.663  INFO [adopciones,,] 22184 --- [Thread-5] o.s.c.s.a.z.ZipkinAutoConfiguration      : Flushing remaining spans on shutdown
+2023-10-19 10:38:28.669  INFO [adopciones,,] 22184 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADOPCIONES with eureka with status DOWN
+2023-10-19 10:38:28.669  INFO [adopciones,,] 22184 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1697704708669, current=DOWN, previous=UP]
+2023-10-19 10:38:28.670  INFO [adopciones,,] 22184 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:04c3ca54f0b1fe813c5c0ef8a9b9492f: registering service...
+2023-10-19 10:38:28.676  INFO [adopciones,,] 22184 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:04c3ca54f0b1fe813c5c0ef8a9b9492f - registration status: 204
+2023-10-19 10:38:28.749  INFO [adopciones,,] 22184 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 10:38:28.751  INFO [adopciones,,] 22184 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-10-19 10:38:28.770  WARN [adopciones,,] 22184 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:38:28.771  WARN [adopciones,,] 22184 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "animales" does not exist, skipping
+2023-10-19 10:38:28.783  WARN [adopciones,,] 22184 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-10-19 10:38:28.784  WARN [adopciones,,] 22184 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "sequiencia_animales" does not exist, skipping
+2023-10-19 10:38:29.367  INFO [adopciones,,] 22184 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-19 10:38:29.376  INFO [adopciones,,] 22184 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-19 10:38:29.380  INFO [adopciones,,] 22184 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-10-19 10:38:32.390  INFO [adopciones,,] 22184 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-10-19 10:38:32.409  INFO [adopciones,,] 22184 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/ADOPCIONES/adopciones:04c3ca54f0b1fe813c5c0ef8a9b9492f": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/ADOPCIONES/adopciones:04c3ca54f0b1fe813c5c0ef8a9b9492f": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
 	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
@@ -741,8 +623,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
 	... 52 more
 
-2023-10-16 10:00:58.739  WARN [adopciones,,] 34152 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/ADOPCIONES/adopciones:2cd2cbcebc72c5857a76c9adef20c023": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
-2023-10-16 10:00:58.745  INFO [adopciones,,] 34152 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/ADOPCIONES/adopciones:2cd2cbcebc72c5857a76c9adef20c023": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/ADOPCIONES/adopciones:2cd2cbcebc72c5857a76c9adef20c023": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-10-19 10:38:32.410  WARN [adopciones,,] 22184 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/ADOPCIONES/adopciones:04c3ca54f0b1fe813c5c0ef8a9b9492f": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-10-19 10:38:32.431  INFO [adopciones,,] 22184 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/ADOPCIONES/adopciones:04c3ca54f0b1fe813c5c0ef8a9b9492f": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/ADOPCIONES/adopciones:04c3ca54f0b1fe813c5c0ef8a9b9492f": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
 	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
@@ -811,8 +693,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
 	... 53 more
 
-2023-10-16 10:00:58.745  WARN [adopciones,,] 34152 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/ADOPCIONES/adopciones:2cd2cbcebc72c5857a76c9adef20c023": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
-2023-10-16 10:00:58.748 ERROR [adopciones,,] 34152 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:2cd2cbcebc72c5857a76c9adef20c023 - de-registration failedCannot execute request on any known server
+2023-10-19 10:38:32.432  WARN [adopciones,,] 22184 --- [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/ADOPCIONES/adopciones:04c3ca54f0b1fe813c5c0ef8a9b9492f": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2023-10-19 10:38:32.438 ERROR [adopciones,,] 22184 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADOPCIONES/adopciones:04c3ca54f0b1fe813c5c0ef8a9b9492f - de-registration failedCannot execute request on any known server
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.17.jar:1.10.17]
@@ -848,4 +730,4 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:114) ~[spring-boot-2.7.5.jar:2.7.5]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2023-10-16 10:00:58.753  INFO [adopciones,,] 34152 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2023-10-19 10:38:32.448  INFO [adopciones,,] 22184 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

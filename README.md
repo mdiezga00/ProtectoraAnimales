@@ -4,7 +4,7 @@ El proyecto tiene la siguiente estructura:
 ![Diagrama del proyecto](imagenes/proyecto.png)
 
 Las clases están relaccionadas entre sí así:
-![Diagrama de clases](imagenes/img_1.png)
+![Diagrama de clases](imagenes/img.png)
 
 # Guía de uso
 1``mvn clean install`` para instalar las dependencias del proyecto.
@@ -28,8 +28,8 @@ Las clases están relaccionadas entre sí así:
 - Grafana dashboard: http://localhost:3000/d/spring_boot_21/transaccionesbancariashiberus
 - Elasticsearch: http://localhost:9200/
 - Kibana dashboard: http://localhost:5601/app/dashboards#/view/b24738d0-bc24-11ed-8284-cb55ba82334a
-
-
+- Job de Jenkins: http://localhost:8086/job/ProtectoraAnimales/
+- Resultados SonarQube: http://localhost:9001/dashboard?id=protectoraAnimales
 
 # Autor
 Miguel Díez García

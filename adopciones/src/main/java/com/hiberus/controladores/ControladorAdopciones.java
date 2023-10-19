@@ -68,8 +68,12 @@ public class ControladorAdopciones {
     public ResponseEntity<SolicitudDto> saveSolicitud(
             @RequestBody SolicitudDto solicitudDto
     ){
-        if(servicioAnimales.getAnimalById( solicitudDto.getAnimalId()).getId() == null){
+        AnimalDto animal = servicioAnimales.getAnimalById( solicitudDto.getAnimalId());
+        if(animal.getId() == null){
             throw new AnimalNotFoundException(solicitudDto.getAnimalId());
+        }
+        if(animal.isAdoptado()){
+            throw new AnimalYaAdoptadoException(animal.getId());
         }
         if(servicioAdoptantes.getAdoptanteById( solicitudDto.getAdoptanteId() ).getId() == null){
             throw new AdoptanteNotFoundException(solicitudDto.getAdoptanteId());

@@ -124,6 +124,16 @@ services:
       - ./jenkins_configuration:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
 
+  sonarqube:
+    image: sonarqube:latest
+    container_name: sonarqube-protectora
+    ports:
+      - "9001:9000"
+    environment:
+      - SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true
+    restart:
+      unless-stopped
+
 volumes:
   prom_data:
   dat:

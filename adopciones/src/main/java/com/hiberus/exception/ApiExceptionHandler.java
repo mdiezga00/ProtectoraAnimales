@@ -63,4 +63,15 @@ public class ApiExceptionHandler {
         return new ResponseEntity<>(apiException, httpStatus);
     }
 
+    @ExceptionHandler(value = {AnimalYaAdoptadoException.class})
+    public ResponseEntity<Object> handleApiRequestException(AnimalYaAdoptadoException e){
+        HttpStatus httpStatus = HttpStatus.CONFLICT;
+        ApiException apiException = new ApiException(
+                "El animal con Id " + e.getId() + " ya ha sido adoptato",
+                httpStatus
+        );
+
+        return new ResponseEntity<>(apiException, httpStatus);
+    }
+
 }
